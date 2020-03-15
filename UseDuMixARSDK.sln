@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseDuMixARSDK", "Assembly-CSharp.csproj", "{10C9A348-0547-5F84-3B8F-BAF08FE65AFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseDuMixARSDK", "Assembly-CSharp-Editor.csproj", "{9BFF442F-4BE9-71D8-C599-478365EBC067}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10C9A348-0547-5F84-3B8F-BAF08FE65AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C9A348-0547-5F84-3B8F-BAF08FE65AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C9A348-0547-5F84-3B8F-BAF08FE65AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C9A348-0547-5F84-3B8F-BAF08FE65AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BFF442F-4BE9-71D8-C599-478365EBC067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BFF442F-4BE9-71D8-C599-478365EBC067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BFF442F-4BE9-71D8-C599-478365EBC067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BFF442F-4BE9-71D8-C599-478365EBC067}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
