@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9BFF442F-4BE9-71D8-C599-478365EBC067}</ProjectGuid>
+    <ProjectGuid>{75C42EF8-8909-ADAE-8EC2-FD4D87CDCF31}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -111,12 +111,12 @@
  <HintPath>E:/SystemSoftware/Unity5.6.4f1/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="BaiduARUnitySDK">
- <HintPath>D:/UnityNameSpace/AR_BaiduSDK/UseDuMixARSDK/Assets/BaiduAR/SDK/Scripts/BaiduARUnitySDK.dll</HintPath>
+ <HintPath>D:/UnityNameSpace/AR_BaiduSDK/AR_DumixSDK/Assets/BaiduAR/SDK/Scripts/BaiduARUnitySDK.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{10C9A348-0547-5F84-3B8F-BAF08FE65AFB}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{C1264B0C-8EED-BFB2-10C8-D7F9449FE3D1}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

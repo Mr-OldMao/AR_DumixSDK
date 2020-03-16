@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{10C9A348-0547-5F84-3B8F-BAF08FE65AFB}</ProjectGuid>
+    <ProjectGuid>{C1264B0C-8EED-BFB2-10C8-D7F9449FE3D1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,6 +60,7 @@
      <Compile Include="Assets\BaiduAR\SDK\Scripts\BaiduARRenderTexturePlane.cs" />
      <Compile Include="Assets\BaiduAR\SDK\Scripts\BaiduARVedioPlayQuad.cs" />
      <Compile Include="Assets\BaiduAR\SDK\Scripts\BaiduARWebCamera.cs" />
+     <Compile Include="Assets\Script\MainMenu.cs" />
      <Compile Include="Assets\Script\MainUI.cs" />
      <Compile Include="Assets\Script\ScanImage.cs" />
      <None Include="Assets\BaiduAR\SDK\Materials\PanoVideo.shader" />
@@ -90,7 +91,7 @@
  <HintPath>E:/SystemSoftware/Unity5.6.4f1/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="BaiduARUnitySDK">
- <HintPath>D:/UnityNameSpace/AR_BaiduSDK/UseDuMixARSDK/Assets/BaiduAR/SDK/Scripts/BaiduARUnitySDK.dll</HintPath>
+ <HintPath>D:/UnityNameSpace/AR_BaiduSDK/AR_DumixSDK/Assets/BaiduAR/SDK/Scripts/BaiduARUnitySDK.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

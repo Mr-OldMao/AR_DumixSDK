@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class MainUI : MonoBehaviour
 {
@@ -8,13 +9,14 @@ public class MainUI : MonoBehaviour
     public Text txt_Warning;
     public GameObject go_PanelLoading;
     public Button btn_Yes;
-
+    public Button btn_Back;
     public BaiduARImageRecognition scr_imgRecognition;
     public BaiduARWebCamera scr_webCamera;
     // Use this for initialization
     void Start()
     {
         btn_Yes.onClick.AddListener(() =>  Application.Quit());
+        btn_Back.onClick.AddListener(() => SceneManager.LoadScene("MainMenu"));
         scr_imgRecognition.OnErrorEvent.AddListener(ShowWarningHint);
         go_PanelLoading.SetActive(true);
         go_PanelWarning.SetActive(false);
